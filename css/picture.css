@@ -1,0 +1,59 @@
+/*** list **/
+.list-picture .picture{
+	padding:0;
+	padding-bottom: 4px;
+}
+
+
+.list-picture .picture a{
+	vertical-align: top;
+	display: inline-block;
+}
+
+.list-picture .picture figure{
+	width: 275px;
+	height: 215px;
+	position: relative;
+}
+
+
+.list-picture .picture figure img{
+	width:100%;
+	vertical-align: top;
+	height: 100%;
+}
+
+.list-picture .picture figure figcaption{
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color:white;
+	background: rgba(1,1,1,0.5);
+	opacity: 0;
+}
+
+.list-picture .picture:hover figure figcaption{
+	opacity: 1;
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+
+/*** picture view ***/
+
+.picture-view h2{
+	color:#2196F3;
+}
+
+/* form flickr */
+
+.flickr .radio{
+	display: inline-block;
+}
+
+.flickr .radio label{
+	padding-left: 30px;
+}

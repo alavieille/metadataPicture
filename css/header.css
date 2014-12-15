@@ -1,0 +1,60 @@
+/** --- Header ------- **/
+
+.main-header{
+	background-color: #2196F3;
+	color:#fff;
+	min-height:175px;
+	position: relative;
+	
+}
+
+
+/** Navigation **/
+
+
+.main-header .main-navigation{
+	margin-right: 50px;
+	margin-top:20px;
+	z-index: 1;
+}
+
+.main-header .main-navigation li{
+	margin-left:20px;
+}
+
+.main-header .main-navigation a{
+	/*color:#fff;*/
+	color:#3F51B5;
+	font-size:2em;
+	display: inline-block;
+}
+
+.main-header .main-navigation a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+
+.main-header .main-navigation i{
+	padding-right:10px;
+}
+
+.main-header .float-btn-upload{
+	position: absolute;
+	bottom:-30px;
+	right: 40px;
+	color:#fff;
+	z-index: 4;
+}
+
+.main-header .float-btn-upload:hover{
+	color:black;
+}
+/** Title **/
+
+.main-header .main-title{
+	margin-left:50px;
+	z-index: 1;
+	margin-top: 5px;
+	padding-bottom: 10px;
+}
+
